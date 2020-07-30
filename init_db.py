@@ -1,4 +1,5 @@
 import psycopg2
+import os
 
 DATABASE_URL = os.environ['DATABASE_URL']
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
@@ -7,3 +8,16 @@ cur.execute("CREATE TABLE users (id SERIAL PRIMARY KEY, user_id VARCHAR, found_b
 conn.commit()
 cur.close()
 conn.close()
+
+# import psycopg2
+# import urllib.parse as urlparse
+# import os
+
+# url = urlparse.urlparse(os.environ['DATABASE_URL'])
+# dbname = url.path[1:]
+# user = url.username
+# password = url.password
+# host = url.hostname
+# port = url.port
+
+# conn = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)
