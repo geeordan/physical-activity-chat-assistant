@@ -8,7 +8,7 @@ PACA is a Slack application that uses IBM Watson Assistant to detect messages ab
 
 
 ## Contents
-1. [Short description](#short-description)
+1. [Short Description](#short-description)
 1. [PACA Story](#paca-story)
 1. [The Architecture](#the-architecture)
 1. [Long Description](#long-description)
