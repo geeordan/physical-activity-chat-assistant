@@ -14,6 +14,7 @@ PACA is a Slack application that uses IBM Watson Assistant to detect messages ab
 1. [Long Description](#long-description)
 1. [Project Roadmap](#project-roadmap)
 1. [Getting Started](#getting-started)
+1. [Live Demo](#live-demo)
 1. [Built With](#built-with)
 1. [Contributing](#contributing)
 1. [Authors](#authors)
@@ -79,6 +80,11 @@ Before you begin, you’ll need the following:
 ### Slack
 * [Slack Event Adapter API](https://github.com/slackapi/python-slack-events-api)
 * [Slackify](https://github.com/Ambro17/slackify)
+
+
+## Live Demo
+
+You can find PACA running at our live Slack server here: https://paca-bot.slack.com
 
 
 ## Built With
