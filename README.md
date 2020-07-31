@@ -26,7 +26,8 @@ PACA is a Slack application that uses IBM Watson Assistant to detect messages ab
 
 Watch the video below to understand PACA’s solution and how it can help remote workers like Marcus: 
 
-https://www.youtube.com/watch?v=CHB8kZkMnWY
+
+[![PACA](http://img.youtube.com/vi/CHB8kZkMnWY/0.jpg)](https://www.youtube.com/watch?v=CHB8kZkMnWY "PACA")
 
 
 ## The Architecture
