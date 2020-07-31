@@ -75,13 +75,13 @@ Flask
 
 ## Built With
 
-* [Python]
-* [IBM Watson Assistant] 
-* [Slack Events API]
-* [Heroku] 
-* [Heroku Postgres] 
-* [Flask] 
-* [Ngrok]
+* [Python](https://www.python.org/) 
+* [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) 
+* [Slack Events API](https://github.com/slackapi/python-slack-events-api)
+* [Heroku](https://www.heroku.com) 
+* [Heroku Postgres](https://www.heroku.com/postgres)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+* [Ngrok](https://ngrok.com)
 
 
 ## Contributing
