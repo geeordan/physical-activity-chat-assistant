@@ -16,7 +16,6 @@ PACA is a Slack application that uses IBM Watson Assistant to detect messages ab
 1. [Getting Started](#getting-started)
 1. [Built With](#built-with)
 1. [Contributing](#contributing)
-1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
 1. [Acknowledgments](#acknowledgments)
@@ -96,11 +95,6 @@ Before you begin, you’ll need the following:
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 
 ## Authors
