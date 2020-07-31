@@ -2,8 +2,6 @@
 
 Here are more details and information that is not included in our [README.md](README.md) 
 
-## Design Rationale
-
 ## Example User Flow
 
 ![User Flow](img/PACA_UserFlow.png)
