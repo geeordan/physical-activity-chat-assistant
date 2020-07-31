@@ -102,7 +102,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
 
-## Acknowledgements
+## Acknowledgments
 
 * [Ryan Engaling](insert website here) for his video production 
 * Yu Chen & San Jose State University 
