@@ -30,7 +30,7 @@ Watch the video below to understand PACA’s solution and how it can help remote
 
 Architecture
 ## The architecture
-
+![Architecture path](img/PACA_Architecture.png)
 
 
 ## Long description 
