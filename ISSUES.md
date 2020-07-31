@@ -30,7 +30,7 @@ The best place to ask for help is through the [Exercise Assistant workspace](htt
 ## Discussing non-technical topics
 
 Discussion of non-technical topics are also best to discuss in the #general channel 
-of the [Exercise Assistant workspace]((https://join.slack.com/t/exerciseassistant/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ).
+of the [Exercise Assistant workspace](https://join.slack.com/t/exerciseassistant/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ).
 
 ## Submitting a Bug Report
 
