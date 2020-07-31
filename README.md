@@ -68,7 +68,7 @@ Before you begin, you’ll need the following:
 
 
 ### Slack
-1. Slack Event Adapter
+* Slack Event Adapter API
 
 
 ## Built With
