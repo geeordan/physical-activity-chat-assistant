@@ -10,14 +10,14 @@ import get_exercise
 import psycopg2
 import urllib.parse as urlparse
 
-# DATABASE_URL = os.environ['DATABASE_URL']
-# conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+
 url = urlparse.urlparse(os.environ['DATABASE_URL'])
 dbname = url.path[1:]
 user = url.username
 password = url.password
 host = url.hostname
 port = url.port
+
 conn = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)
 cur = conn.cursor()
 
@@ -36,7 +36,6 @@ def close_db(initial_message_ts):
 
 
 def get_exercise_info(found_body_part, search_type):
-    # global exercise_list
     exercise_list = []
     exercise_titles = []
 
@@ -65,11 +64,6 @@ def get_exercise_info(found_body_part, search_type):
 
 @slackify.event("message")
 def handle_message(payload):
-    # global first_name
-    # global found_body_part
-    # global exercise_inquiry
-    # global exercise_titles
-    
     body_parts = ["back", "wrist", "neck", "shoulder", "ankle", "thigh", "calves", "bicep", "tricep", "forearm", "chest", "abs", "glutes"]
     action_items = ["typ", "computer", "ran", "run", "sit", "sat", "lift", "screen", "leg day", "walk"]
     search_criteria = ["back", "wrist", "neck", "shoulder", "ankle", "thigh", "calves", "bicep", "tricep", "forearm", "chest", "abs", "glutes", "typ", "computer", "ran", "run", "sit", "sat", "lift", "screen", "leg day", "walk"]
@@ -1100,9 +1094,6 @@ def see_instructions_sub():
 
 @slackify.action("load_timer")
 def load_timer():
-    # global amount_of_seconds
-    # global initial_timer_ts
-    # global initial_timer_channel
     action = json.loads(request.form["payload"])
     user_id = action["user"]["id"]
 
