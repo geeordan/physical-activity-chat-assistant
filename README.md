@@ -104,6 +104,6 @@ This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE)
 
 ## Acknowledgments
 
-* [Ryan Engaling](insert website here) for his video production 
+* [Ryan Engaling](https://www.instagram.com/love.ryanalexander) for his video production 
 * Yu Chen & San Jose State University 
 
