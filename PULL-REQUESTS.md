@@ -40,7 +40,7 @@ so that you can make the actual changes. This is where we will start.
 
 More details to come on PACA dependencies. In case of doubt, open an issue in the
 [issue tracker](https://github.com/geeordan/physical-activity-chat-assistant/issues) or engage on the 
-[Exercise Assistant Slack workspace][].
+[PACA Slack workspace][https://join.slack.com/t/paca-bot/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ].
 
 ## Setting up your local environment
 
@@ -222,7 +222,7 @@ $ git push --force-with-lease origin my-branch
 **Important:** The `git push --force-with-lease` command is one of the few ways
 to delete history in `git`. Before you use it, make sure you understand the
 risks. If in doubt, you can always ask for guidance in the Pull Request or on the
-[Exercise Assistant Slack workspace].
+[PACA Slack workspace](https://join.slack.com/t/paca-bot/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ).
 
 If you happen to make a mistake in any of your commits, do not worry. You can
 amend the last commit (for example if you want to change the commit log).
@@ -488,7 +488,7 @@ If you want to know more about the code review and the landing process, see the
 
 [Code of Conduct]: https://github.com/geeordan/physical-activity-chat-assistant/blob/master/CONTRIBUTING.md
 [Collaborator Guide]: ../../../CONTRIBUTING.md
-[Exercise Assistant Slack workspace]: https://join.slack.com/t/exerciseassistant/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ
+[PACA Slack workspace]: https://join.slack.com/t/paca-bot/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ
 
 ## Acknowledgments
 Information and template from [Code and Response: Project Sample](https://github.com/Code-and-Response/Project-Sample/blob/master/contributing/PULL-REQUESTS.md)
