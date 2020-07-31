@@ -8,9 +8,17 @@ import os
 import watson_api
 import get_exercise
 import psycopg2
+import urllib.parse as urlparse
 
-DATABASE_URL = os.environ['DATABASE_URL']
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+# DATABASE_URL = os.environ['DATABASE_URL']
+# conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+url = urlparse.urlparse(os.environ['DATABASE_URL'])
+dbname = url.path[1:]
+user = url.username
+password = url.password
+host = url.hostname
+port = url.port
+conn = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)
 cur = conn.cursor()
 
 app = Flask(__name__)
