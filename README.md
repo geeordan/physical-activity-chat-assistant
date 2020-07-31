@@ -29,7 +29,6 @@ Watch the video below to understand PACA’s solution and how it can help remote
 [![](http://img.youtube.com/vi/vOgCOoy_Bx0/0.jpg)](http://www.youtube.com/watch?v=vOgCOoy_Bx0)
 
 
-Architecture
 ## The architecture
 ![Architecture path](img/PACA_Architecture.png)
 
@@ -44,27 +43,25 @@ Companies and organizations have moved most of their work communications onto Sl
 Explain why it is better than any existing solution
 PACA monitor and detect real-time Slack channel messages related to aching of a body part. There are other health and wellness Slack applications that remind you to take breaks, but they do not provide the user actual actionable tasks that specifically target body pain. PACA will show exercises and stretches that can be accomplished quickly during the workday.
 
-[More detail is available here] [DESCRIPTION.md]
+[More detail is available here](DESCRIPTION.md)
 
 
 ## Project roadmap
 
-![Roadmap] [insert image here]
+![Roadmap](/img/PACA_Roadmap.png) 
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Please see [SETUP.md]
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Please see [SETUP.md](SETUP.md)
 
-SETUP.MD
-#Getting the Solution Started
 
 ## Prerequisites
 
 Before you begin, you’ll need the following: 
 
-A [Slack] (https://slack.com/get-started#/) account. 
-An [IBM Cloud] (https://cloud.ibm.com/registration) account. 
+A [Slack](https://slack.com/get-started#/) account. 
+An [IBM Cloud](https://cloud.ibm.com/registration) account. 
 Heroku 
 Flask
 
@@ -86,9 +83,8 @@ Flask
 
 ## Contributing
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTION.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-CONTRIBUTING.md
 
 ## Versioning
 
@@ -108,6 +104,6 @@ This project is licensed under the Apache 2 License - see the LICENSE file for d
 
 ## Acknowledgements
 
-* [Ryan Engaling] (insert website here) for his video production 
+* [Ryan Engaling](insert website here) for his video production 
 * Yu Chen & San Jose State University 
 
