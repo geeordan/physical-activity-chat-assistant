@@ -84,7 +84,7 @@ Before you begin, you’ll need the following:
 
 ## Live Demo
 
-You can find PACA running at our live Slack server here: https://paca-bot.slack.com
+You can find PACA running at our live Slack server here: https://join.slack.com/t/paca-bot/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ
 
 
 ## Built With
