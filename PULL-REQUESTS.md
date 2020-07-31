@@ -26,7 +26,7 @@ so that you can make the actual changes. This is where we will start.
   * [Respect the minimum wait time for comments](#respect-the-minimum-wait-time-for-comments)
   * [Abandoned or Stalled Pull Requests](#abandoned-or-stalled-pull-requests)
   * [Approving a change](#approving-a-change)
-  * [Accept that there are different opinions about what belongs in physical-actviity-chat-assistant](#accept-that-there-are-different-opinions-about-what-belongs-in-project-sample)
+  * [Accept that there are different opinions about what belongs in physical-actvity-chat-assistant](#accept-that-there-are-different-opinions-about-what-belongs-in-project-sample)
   * [Performance is not everything](#performance-is-not-everything)
   * [Continuous Integration Testing](#continuous-integration-testing)
 * [Notes](#notes)
