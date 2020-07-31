@@ -35,13 +35,10 @@ Watch the video below to understand PACA’s solution and how it can help remote
 
 
 ## Long Description 
-### Real-world problem we identified
 Due to the spread of COVID-19, many workers are practicing social distancing through working from home. As more workers spend longer hours on the computer, they tend to neglect their physical well-being. While working on the computer for extended periods of time, body pain and muscle aches may be noticed but are typically quickly ignored and dismissed. However, ignoring the pain and not addressing may only make it worse. Those working from home must be reminded and shown quick exercises and stretches for specific aching body parts throughout the workday to mitigate the adverse effects that could result from muscle stiffness and lack of mobility!
 
-### The technology project we created
 Companies and organizations have adopted Slack as their primary communication platform. PACA is a Slack application using Python programming language and IBM Watson Assistant to detect keywords in a conversation that relates to pain of a specific body part. During a conversation in a Slack channel, if a message contains words involving body part pain or potential sources of future muscle pain, PACA will directly message the user and provide recommended stretches and exercises.
 
-### Explain why it is better than any existing solution
 PACA monitors and detects real-time Slack channel messages related to aching body parts. Although there are alternative health and wellness Slack applications and bots that remind you to take breaks, they lack the functionality to provide the user with actual actionable tasks that specifically target body pain. PACA will show exercises and stretches that can be accomplished quickly during the workday.
 
 [More detail is available here](DESCRIPTION.md)
