@@ -10,11 +10,11 @@ PACA is a Slack application that uses IBM Watson Assistant to detect messages ab
 ## Contents
 1. [Short description](#short-description)
 1. [PACA Story](#paca-story)
-1. [The architecture](#the-architecture)
-1. [Long description](#long-description)
-1. [Project roadmap](#project-roadmap)
-1. [Getting started](#getting-started)
-1. [Built with](#built-with)
+1. [The Architecture](#the-architecture)
+1. [Long Description](#long-description)
+1. [Project Roadmap](#project-roadmap)
+1. [Getting Started](#getting-started)
+1. [Built With](#built-with)
 1. [Contributing](#contributing)
 1. [Versioning](#versioning)
 1. [Authors](#authors)
@@ -29,11 +29,11 @@ Watch the video below to understand PACA’s solution and how it can help remote
 [![](http://img.youtube.com/vi/vOgCOoy_Bx0/0.jpg)](http://www.youtube.com/watch?v=vOgCOoy_Bx0)
 
 
-## The architecture
+## The Architecture
 ![Architecture path](img/PACA_Architecture.png)
 
 
-## Long description 
+## Long Description 
 Real-world problem we identified
 Due to the spread of COVID-19, many workers are practicing social distancing through working from home. As more workers are now on the computer for longer hours, they tend to neglect their physical well-being. Oftentimes while working on the computer, body pain is noticed but quickly ignored and dismissed. However, ignoring the pain and not addressing it will only make it worse. Those working from home need to be reminded and shown quick exercises and stretches for specific aching body parts throughout the workday!
 
@@ -46,7 +46,7 @@ PACA monitor and detect real-time Slack channel messages related to aching of a 
 [More detail is available here](DESCRIPTION.md)
 
 
-## Project roadmap
+## Project Roadmap
 
 ![Roadmap](/img/PACA_Roadmap.png) 
 
@@ -60,10 +60,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 Before you begin, you’ll need the following: 
 
-A [Slack](https://slack.com/get-started#/) account. 
-An [IBM Cloud](https://cloud.ibm.com/registration) account. 
-Heroku 
-Flask
+* A [Slack](https://slack.com/get-started#/) account. 
+* An [IBM Cloud](https://cloud.ibm.com/registration) account. 
+* Heroku 
+* Flask
 
 
 ### Slack
@@ -99,7 +99,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 
 ## License 
-This project is licensed under the Apache 2 License - see the LICENSE file for details.
+This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Acknowledgements
