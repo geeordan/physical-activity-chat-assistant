@@ -51,7 +51,20 @@ PACA monitors and detects real-time Slack channel messages related to aching bod
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Please see [SETUP.md](SETUP.md)
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+1. Create a [Slack app](https://api.slack.com/apps)
+2. Add a new bot user to the Slack app
+3. Replace the ```bot-oauth-token``` environmental variable in main.py with your Bot User OAuth Access Token
+4. Add Bot Token Scopes to allow the app to read messages, send messages, view basic user information, etc.
+5. Replace the ```DATABASE_URL``` environmental variable in main.py with your PostgreSQL database URL and credentials
+6. Replace the ```watson_apikey``` environmental variable, session_url variable, and message_url variable in watson_api.py (IBM Watson assistant **must** be configured with Intents and Dialogs based on each body part specified in exercise_data.json)
+7. Start an Ngrok server on port 5000 (ex: ```./ngrok http 5000```) in the same directory as main.py and run main.py
+8. Using the public-facing URL provided by Ngrok, input the URL as a Request URL in the Interactivity & Shortcuts tab in your Slack app settings
+9. In the Event Subscriptions tab, input the Ngrok URL followed by the endpoint ```/slack/events```
+10. Invite your Slack bot to run in the background of your channels and to interact with users in your workspace!
+
+Ngrok should only be used for development! When deploying the app, migrate the code base to a cloud platform (e.g. Heroku) to publicly host the API.
 
 
 ## Prerequisites
@@ -65,7 +78,8 @@ Before you begin, you’ll need the following:
 
 
 ### Slack
-* Slack Event Adapter API
+* [Slack Event Adapter API](https://github.com/slackapi/python-slack-events-api)
+* [Slackify](https://github.com/Ambro17/slackify)
 
 
 ## Built With
