@@ -25,12 +25,12 @@ contribute:
 
 ## Asking for General Help
 
-The best place to ask for help is through the [Exercise Assistant workspace](https://join.slack.com/t/exerciseassistant/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ). Open an issue to request an invitation.
+The best place to ask for help is through the [PACA Slack workspace](https://join.slack.com/t/paca-bot/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ). Open an issue to request an invitation.
 
 ## Discussing non-technical topics
 
 Discussion of non-technical topics are also best to discuss in the #general channel 
-of the [Exercise Assistant workspace](https://join.slack.com/t/exerciseassistant/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ).
+of the [PACA Slack workspace](https://join.slack.com/t/paca-bot/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ).
 
 ## Submitting a Bug Report
 
@@ -66,7 +66,7 @@ opening and triaging issues, but carries with it a necessary review and approval
 workflow that ensures that the proposed changes meet the minimal quality and
 functional guidelines of the PACA project.
 
-[Exercise Assistant workspace]: (https://join.slack.com/t/exerciseassistant/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ)
+[PACA Slack workspace]: (https://join.slack.com/t/paca-bot/shared_invite/zt-fsbbcg84-j4M3ijxcB8A4PmOFZ6zAoQ)
 
 ## Acknowldegements
 Information and template taken from [Code and Response: Project Sample](https://github.com/Code-and-Response/Project-Sample/blob/master/contributing/ISSUES.md)
