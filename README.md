@@ -4,7 +4,7 @@
 
 PACA is a Slack application that uses IBM Watson Assistant to detect messages about body pain and then send a direct message to the pained user to provide them with recommended stretches and exercises. If a user is not available at the time to do the stretch or exercise, they can use PACA’s reminder feature to be reminded at a later time. The goal of this application is to ease remote workers’ body pain as they work from undisciplined work environments and encourage them to stretch or exercise more throughout the day. 
  
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://join.slack.com/share/zt-g6v7kt4z-dMfVFDuP4En80VHH5UrTXQ).
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://join.slack.com/share/zt-g6v7kt4z-dMfVFDuP4En80VHH5UrTXQ)
 
 
 ## Contents
